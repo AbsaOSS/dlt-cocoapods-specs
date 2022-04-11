@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-    s.name         = "IndySdk"
+    s.name         = "Indy"
     s.version      = "1.15.0"
     s.summary      = "Indy SDK iOS Wrapper - SSI Technologies"
     s.homepage     = "https://www.hyperledger.org/use/hyperledger-indy"
@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
     s.platform     = :ios, "10.0"
   
     s.source       = { :git => "https://github.com/AbsaOSS/dlt-cocoapods-specs.git" }
-    s.source_files = "Source/IndySdk/1.15.0/**/*.h"
-    s.framework    = "IndySdk"
-    s.vendored_frameworks = "Source/IndySdk/1.15.0/Indy.framework"
+    s.source_files = "Source/Indy/1.15.0/**/*.h"
+    s.framework    = "Indy"
+    s.vendored_frameworks = "Source/Indy/1.15.0/Indy.framework"
   
   end
   
