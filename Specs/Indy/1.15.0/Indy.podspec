@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     s.source       = { :http => "https://s3.eu-central-1.amazonaws.com/builds.eth.company/IndySdk.zip" }
     s.framework    = "Indy"
     s.source_files = "**/*.h"
-    s.vendored_frameworks = "Indy.framework"
+    s.vendored_frameworks = "IndySdk/Indy.framework"
   
   end
-  
