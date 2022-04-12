@@ -9,10 +9,9 @@ Pod::Spec.new do |s|
   
     s.platform     = :ios, "10.0"
   
-    s.source       = { :git => "https://github.com/AbsaOSS/dlt-cocoapods-specs.git" }
-    s.source_files = "Source/Indy/1.15.0/**/*.h"
+    s.source       = { :http => "https://s3.eu-central-1.amazonaws.com/builds.eth.company/IndySdk.zip" }
     s.framework    = "Indy"
-    s.vendored_frameworks = "Source/Indy/1.15.0/Indy.framework"
+    s.vendored_frameworks = "Indy.framework"
   
   end
   
